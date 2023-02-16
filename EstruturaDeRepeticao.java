@@ -19,9 +19,21 @@ public class EstruturaDeRepeticao {
             System.out.println(i);
         } */
 
-        int fatResult = 0;
+        /*Quarto exercício concluído 
+        int fatResult = 1;
         for (int n=1; n<=10; n++){
-            
-        }
+            for (int i=n; i>=1; i--){
+                if(i == 0) {
+                    fatResult = 1;
+                    break;
+                } else {
+                    fatResult = i * fatResult;
+                }
+            }
+
+            System.out.println("O fatorial de " + n + "= " + fatResult);
+
+            fatResult = 1;
+        } */
     }
 }
