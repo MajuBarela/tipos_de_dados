@@ -2,6 +2,7 @@ public class Variaveis {
     public static void main(String[] args) {
 
         int idade = 39;
+        String nome;
         byte quantidadeBolas = 7;
         char letra = 'M';
         boolean vivo = false;
