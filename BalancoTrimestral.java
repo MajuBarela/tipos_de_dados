@@ -6,8 +6,10 @@ public class BalancoTrimestral {
         int gastosFevereiro = 23000;
         int gastosMarco = 17000;
         int gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
+        double mediaTrimestral = gastosTrimestre / 3;
 
-        System.out.println("O gasto trimestral foi de" + gastosTrimestre + "reais");
+        System.out.println("O gasto trimestral foi de " + gastosTrimestre + " reais");
+        System.out.println("A média trimestral foi de " + mediaTrimestral);
     }
     
 }
